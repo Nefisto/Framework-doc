@@ -6,7 +6,7 @@ My intention here is to share some tools that I've been using to turn my game de
 
 | Summary                    |
 | -------------------------- |
-| [Drop table](./Drop Table) |
+| [Drop table](https://github.com/Nefisto/Framework-doc/tree/master/Drop%20Table) |
 |                            |
 |                            |
 
