@@ -4,11 +4,11 @@
 
 My intention here is to share some tools that I've been using to turn my game dev process easier and funny. I hope that it seems useful to you too 
 
-| Summary                    |
-| -------------------------- |
-| [Drop table](https://github.com/Nefisto/Framework-doc/tree/master/Drop%20Table) |
-|                            |
-|                            |
+| Summary                                                      |
+| ------------------------------------------------------------ |
+| [Drop table](https://github.com/Nefisto/Framework-doc/tree/master/Drop%20Table/README.md) |
+|                                                              |
+|                                                              |
 
 ## _For more examples and usage, please refer to the [Wiki][wiki]._ (YOUTUBE)
 
