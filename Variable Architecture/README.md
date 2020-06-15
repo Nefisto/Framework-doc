@@ -110,6 +110,12 @@ public class IntReference
 }
 ```
 
+
+
+#### Features
+
+* **Have default value:** if checked, the value field will be to what value the variable will reset after exit play mode
+
 ---
 
 ## Contact
