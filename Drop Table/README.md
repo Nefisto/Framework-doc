@@ -1,4 +1,4 @@
-# Drop table
+# Drop table (alpha)
 
 ---
 

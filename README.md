@@ -6,24 +6,17 @@ My intention here is to share some tools that I've been using to turn my game de
 
 | Summary                                                      |
 | ------------------------------------------------------------ |
+| [Variable Architecture](https://github.com/Nefisto/Framework-doc/tree/master/Variable%20Architecture) |
 | [Drop table](https://github.com/Nefisto/Framework-doc/tree/master/Drop%20Table) |
 | [Events](https://github.com/Nefisto/Framework-doc/tree/master/Events/README.md) |
 | [Contact](#contact)                                          |
 
-## _For more examples and usage, please refer to the [Wiki][wiki]._ (YOUTUBE)
+## Notes:
+
+* **How it works** section only express the idea behind code, the current version of code should differ, but the idea is the same.
 
 ## Release History
 
-* 0.2.1
-  * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-  * CHANGE: Remove `setDefaultXYZ()`
-  * ADD: Add `init()`
-* 0.1.1
-  * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-  * The first proper release
-  * CHANGE: Rename `foo()` to `bar()`
 * 0.0.1
   * Work in progress
 
