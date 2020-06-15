@@ -8,7 +8,7 @@ My intention here is to share some tools that I've been using to turn my game de
 | ------------------------------------------------------------ |
 | [Variable Architecture](https://github.com/Nefisto/Framework-doc/tree/master/Variable%20Architecture) |
 | [Drop table](https://github.com/Nefisto/Framework-doc/tree/master/Drop%20Table) |
-| [Events](https://github.com/Nefisto/Framework-doc/tree/master/Events/README.md) |
+| [Events Architecture](https://github.com/Nefisto/Framework-doc/tree/master/Events%20Architecture) |
 | [Contact](#contact)                                          |
 
 ## Notes:

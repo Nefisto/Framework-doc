@@ -2,46 +2,39 @@
 
 > Idea from - [Ryan Hipple - Unite 2017](https://www.youtube.com/watch?v=raQ3iHhE_Kk&t=2713s)
 
+***Contact info in the end***
+
 ---
 
-## Arquitetura de eventos
+#### Concept
 
-> Ryan Hipple - Unite 2017
+​	Highlight events that happen during execution (e.g. pause, movement-based in a grid) and create a layer that detaches objects that are responsible to trigger that event and those who are listeners. It's a simple event idea, but using unity inspector to control who triggers and who listener, in this way we try to avoid "update chaos" and turn the game flow easily to read because most of the behavior that is happening you can see in the inspector
 
-#### Conceito
+#### How to use
 
-​	Destacar eventos que acontecem durante a execução, como por exemplo um pause, e criar uma camada que separa os objetos que são responsáveis por disparar o evento (*triggers*) e aqueles que respondem a esse evento (*listeners*)
+1. Create a new SO of the wishing event type
+2. Inside our object that will be a trigger, create the reference and call it using *invoke* wherever you want
 
-#### Quando usar
+```c#
+...
+public GameEvent onDeath;
+...
+public void Death()
+    => onDeath.Raise()
+```
 
-​	Sempre que possível
-
-#### Como usar
-
-1. Crie um novo SO do tipo de evento desejado 
-
-2. Dentro do objeto que ira atuar como *trigger*, crie a variável e faça seu *invoke* no lugar desejado
-
-   ```c#
-   ...
-   public GameEvent onDeath;
-   ...
-   public void Death()
-       => onDeath.Raise()
-   ```
-
-3. Nos objetos que atuarão como *listeners*, adicione o componente *GameEventListener* (do mesmo tipo do evento)
+3. In object that will act as a listener, add the component (Monobehavior) *GameEventListener*, be careful to add listener from the same type of event
    ![Imgur](https://i.imgur.com/YSVD9sk.png)
 
-4. Arraste o evento ao qual o objeto ira responder e insira os comportamentos a serem executados na lista de *response*
+4. Set methods that will be called when the event's called
 
-> OBS: Não há garantia de ordem de execução para a resposta (até onde eu sei)
+> OBS: You cannot control the order that the things will happen
 
-#### Como funciona
+#### How it works (basically)
 
-1. Uma classe que representa o evento e expõe maneiras de se registrar e se remover como *listener* do evento.
+1. A class that represents the event and expose ways to register and unregister from the event
 
-   > OBS: Essa classe é recriada para cada evento de tipo distinto
+   > OBS: This class is recreated for each event type
 
 ```c#
 [CreateAssetMenu(fileName = "GameEvent", menuName = "Events/GameEvent(void)")]
@@ -69,17 +62,9 @@ public class GameEvent : ScriptableObject
 }
 ```
 
-​	Para facilitar o trabalho de depuração é escrito um editor que permite que o evento seja invocado direto do *inspector*
+2. A listener as a component to register in some event by injecting event in the inspector
 
-![Imgur](https://i.imgur.com/KgJvQRY.png)
-
-> OBS: por razões obvias o evento só pode ser chamado em *runtime*
-
-2. Há um componente de *monobehaviour* que atua como listener para um evento qualquer, do mesmo tipo, e executa os eventos quando o *trigger* é ativado
-
-   > OBS: Para eventos tipados é necessário criar uma classes serializavel que herde de *UnityEvent* 
-   >
-   > ex:  Para um evento de *int*
+   > OBS: To serialize typed events, Unity requires that we create a parameterized version of UnityEvent
    >
    > ```c#
    > [Serializable]
@@ -113,6 +98,14 @@ public class GameEventListener : MonoBehaviour
 ```
 
 
+
+#### Features
+
+* To simplify debug and test work, was added a button to invoke the event
+
+  > For obvious reasons the event can be called only in runtime
+
+![Imgur](https://i.imgur.com/KgJvQRY.png)
 
 ---
 
