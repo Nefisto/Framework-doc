@@ -4,6 +4,8 @@
 
 ***Contact info in the end***
 
+---
+
 #### Concept
 
 ​	Variables as SO to create a layer of communication between objects that need info from some shared state

@@ -4,7 +4,11 @@
 
 ---
 
-## Overview
+## Arquitetura de eventos
+
+> Ryan Hipple - Unite 2017
+
+#### Conceito
 
 ​	Destacar eventos que acontecem durante a execução, como por exemplo um pause, e criar uma camada que separa os objetos que são responsáveis por disparar o evento (*triggers*) e aqueles que respondem a esse evento (*listeners*)
 
@@ -109,13 +113,6 @@ public class GameEventListener : MonoBehaviour
 ```
 
 
-
-[to up](
-
-## Release History
-
-* 0.0.1
-  * Base version
 
 ---
 
