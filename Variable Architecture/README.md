@@ -1,6 +1,6 @@
 # Variable Architecture
 
-> [Ryan Hipple - Unite 2017](https://www.youtube.com/watch?v=raQ3iHhE_Kk&t=2713s)
+> Idea from - [Ryan Hipple - Unite 2017](https://www.youtube.com/watch?v=raQ3iHhE_Kk&t=2713s)
 
 #### Concept
 

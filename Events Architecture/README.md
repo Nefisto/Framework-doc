@@ -10,7 +10,7 @@
 |              |
 |              |
 
-## _For more examples and usage, please refer to the [Wiki][wiki]._ (YOUTUBE)
+## 
 
 ## Overview
 
