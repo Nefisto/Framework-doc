@@ -4,14 +4,6 @@
 
 ---
 
-| Key-features |
-| ------------ |
-| Simple drop  |
-|              |
-|              |
-
-## 
-
 ## Overview
 
 ​	Destacar eventos que acontecem durante a execução, como por exemplo um pause, e criar uma camada que separa os objetos que são responsáveis por disparar o evento (*triggers*) e aqueles que respondem a esse evento (*listeners*)

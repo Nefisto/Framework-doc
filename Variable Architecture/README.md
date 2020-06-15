@@ -2,6 +2,8 @@
 
 > Idea from - [Ryan Hipple - Unite 2017](https://www.youtube.com/watch?v=raQ3iHhE_Kk&t=2713s)
 
+***Contact info in the end***
+
 #### Concept
 
 ​	Variables as SO to create a layer of communication between objects that need info from some shared state
@@ -106,3 +108,12 @@ public class IntReference
 }
 ```
 
+---
+
+## Contact
+
+> If you have doubts, suggestions, criticizes or only want to talk
+
+Nefisto – joao.gavron@gmail.com
+
+Distributed in asset store under the [Unity license](https://unity3d.com/legal/as_terms?_ga=2.91212574.56628704.1591012418-1089589826.1583496471).

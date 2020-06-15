@@ -24,6 +24,8 @@ My intention here is to share some tools that I've been using to turn my game de
 
 ## Contact
 
+> If you have doubts, suggestions, criticizes or only want to talk
+
 Nefisto – joao.gavron@gmail.com
 
 Distributed in asset store under the [Unity license](https://unity3d.com/legal/as_terms?_ga=2.91212574.56628704.1591012418-1089589826.1583496471).
