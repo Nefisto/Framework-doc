@@ -6,9 +6,9 @@ My intention here is to share some tools that I've been using to turn my game de
 
 | Summary                                                      |
 | ------------------------------------------------------------ |
-| [Drop table](https://github.com/Nefisto/Framework-doc/tree/master/Drop%20Table/README.md) |
-|                                                              |
-|                                                              |
+| [Drop table](https://github.com/Nefisto/Framework-doc/tree/master/Drop%20Table) |
+| [Events](https://github.com/Nefisto/Framework-doc/tree/master/Events/README.md) |
+| [Contact](#contact)                                          |
 
 ## _For more examples and usage, please refer to the [Wiki][wiki]._ (YOUTUBE)
 
@@ -27,7 +27,9 @@ My intention here is to share some tools that I've been using to turn my game de
 * 0.0.1
   * Work in progress
 
-## Meta
+---
+
+## Contact
 
 Nefisto – joao.gavron@gmail.com
 

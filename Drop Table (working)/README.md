@@ -1,22 +1,32 @@
 # Drop table
 
-> v0.0.1
-
 ---
 
 ​	Drop stuffs is something that many games do in many different ways. Here I'm trying to abstract unique kinds of drop in a class to simplify way that we control drops
 
-| Key-features |
-| ------------ |
-| Simple drop  |
-|              |
-|              |
+| Setups                    |
+| ------------------------- |
+| [Basic loot](#basic-loot) |
+|                           |
+|                           |
 
 ## _For more examples and usage, please refer to the [Wiki][wiki]._ (YOUTUBE)
 
 ## Overview
 
-​	
+
+
+---
+
+## Basic loot
+
+* null = empty
+
+## N-Dice
+
+* Drop table with string
+
+
 
 ## Release History
 
