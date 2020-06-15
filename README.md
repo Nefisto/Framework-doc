@@ -6,10 +6,22 @@ My intention here is to share some tools that I've been using to turn my game de
 
 | Summary                                                      |
 | ------------------------------------------------------------ |
-| [Variable Architecture](https://github.com/Nefisto/Framework-doc/tree/master/Variable%20Architecture) |
-| [Drop table](https://github.com/Nefisto/Framework-doc/tree/master/Drop%20Table) |
+| <s>Audio events</s>                                          |
+| <s>[Drop table](https://github.com/Nefisto/Framework-doc/tree/master/Drop%20Table)</s> |
 | [Events Architecture](https://github.com/Nefisto/Framework-doc/tree/master/Events%20Architecture) |
-| [Contact](#contact)                                          |
+| <s>Flexible UI</s>                                           |
+| <s>Int n float range</s>s                                    |
+| <s>Runtime sets</s>                                          |
+| <s>Singletons</s>                                            |
+| [Variable Architecture](https://github.com/Nefisto/Framework-doc/tree/master/Variable%20Architecture) |
+
+| Extra                |
+| -------------------- |
+| <s>Attributes</s>    |
+| <s>Lazy behavior</s> |
+| <s>Utilities</s>     |
+
+[Contact](#contact)
 
 ## Notes:
 
