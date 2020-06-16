@@ -24,8 +24,9 @@ public void Death()
 ```
 
 3. In object that will act as a listener, add the component (Monobehavior) *GameEventListener*, be careful to add listener from the same type of event
-   ![Imgur](https://i.imgur.com/YSVD9sk.png)
-
+   
+![Imgur](https://i.imgur.com/YSVD9sk.png)
+   
 4. Set methods that will be called when the event's called
 
 > OBS: You cannot control the order that the things will happen
@@ -106,6 +107,8 @@ public class GameEventListener : MonoBehaviour
   > For obvious reasons the event can be called only in runtime
 
 ![Imgur](https://i.imgur.com/KgJvQRY.png)
+
+* Was added an default behavior to that happens **before** the execution of listeners
 
 ---
 
