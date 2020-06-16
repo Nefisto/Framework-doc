@@ -11,8 +11,8 @@ My intention here is to share some tools that I've been using to turn my game de
 | [Events Architecture](https://github.com/Nefisto/Framework-doc/tree/master/Events%20Architecture) |
 | <s>Flexible UI</s>                                           |
 | <s>Int n float range</s>s                                    |
-| <s>Runtime sets</s>                                          |
-| <s>Singletons</s>                                            |
+| [Runtime sets](https://github.com/Nefisto/Framework-doc/tree/master/Runtime%20Set) |
+| [Singletons](https://github.com/Nefisto/Framework-doc/tree/master/Singletons) |
 | [Variable Architecture](https://github.com/Nefisto/Framework-doc/tree/master/Variable%20Architecture) |
 
 | Extra                |
