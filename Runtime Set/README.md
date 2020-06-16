@@ -8,13 +8,13 @@
 
 #### Concept
 
-​	Sometimes is necessary to keep track of some group of objects that exist in scene at an arbitrary moment. To solve this kind of problem what is suggested is that we use an SO to store this kind of info.
+​	Sometimes is necessary to keep track of some group of objects that exist in the scene at an arbitrary moment. To solve this kind of problem what is suggested is that we use an SO to store this kind of info.
 
 #### How to use
 
 1. Create an SO that will represent our group
-2. Insert *RuntimeItem* component in objects that will belong to group created above
-3. When you need to know about this group, only make an reference to the *RuntimeSet* SO that will be injected by inspector
+2. Insert *RuntimeItem* component in objects that will belong to the group created above
+3. When you need to know about this group, only make a reference to the *RuntimeSet* SO that will be injected by inspector
 
 ```c#
 ...
@@ -23,9 +23,9 @@ public RuntimeSet trackableGroup;
 trackableGroup.Items.Find(...);
 ```
 
-> OBS: The script that have reference will need to get necessary components
+> OBS: The script that has reference will need to get necessary components
 
-#### How it work (basically)
+#### How it works (basically)
 
 1. One abstract class that represents a group of *things*
 
@@ -49,7 +49,7 @@ public class RuntimeSet : ScriptableObject
 }
 ```
 
-2. An component to set game object as *trackable*
+2. A component to set the game object as *trackable*
 
 ```c#
 public class RuntimeItem : MonoBehaviour
